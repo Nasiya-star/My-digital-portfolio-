@@ -1,0 +1,87 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Home */
+.home {
+  background: linear-gradient(to right, #11998e, #38ef7d); /* green gradient */
+  color: white;
+}
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.home h2 span {
+  color: #ffe082; /* highlight name */
+}
+
+/* About */
+.about {
+  background: #ffffff;
+}
+.about ul {
+  list-style: none;
+  margin-top: 15px;
+}
+.about li {
+  margin: 8px 0;
+}
+
+/* Project */
+.project {
+  background: #e8f5e9; /* light green background */
+}
+
+/* Contact */
+.contact {
+  background: #fff3e0; /* soft orange background */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+form button {
+  background: #11998e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #38ef7d;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+}
